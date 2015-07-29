@@ -150,7 +150,7 @@ Community *systolic* blood-pressure:
 
 ### Sandbox Server
 
-If you want to create your own sandbox server, very simple instruction on how to get it going using Vagrant are [here](https://github.com/jmandel/smart-on-fhir-installer) (there are also instructions on how to do it the long way). 
+If you want to create your own sandbox server, very simple instruction on how to get it going using Vagrant are [here](https://github.com/smart-on-fhir/installer) (there are also instructions on how to do it the long way). 
 
 If you're going to use Vagrant, it's critically important that you:
 
