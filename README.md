@@ -146,3 +146,13 @@ Community *diastolic* blood-pressure:
 Community *systolic* blood-pressure:
 
 ![Community systolic blood-pressure](screenshot_systolic.png)
+
+
+### Sandbox Server
+
+If you want to create your own sandbox server, very simple instruction on how to get it going using Vagrant are [here](https://github.com/jmandel/smart-on-fhir-installer) (there are also instructions on how to do it the long way). 
+
+If you're going to use Vagrant, it's critically important that you:
+
+1. Install all of the requirements before booting Vagrant (the instructions imply that not all are required before you start).
+2. Install the exact, required version of the Ansible library that's indicated. The latest one will break the install (due to an M2Crypto thing). As the Ansible library is a Python package that's readily available on PyPI, you can easily install the right version using *pip* (package_name==x.y.z).
